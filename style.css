@@ -1,0 +1,89 @@
+body {
+  font-size: 1.125rem;
+  color: #393b44;
+  background-color: #f1eee8;
+  margin: 0;
+}
+
+
+
+/* TYPOGRAPHY */
+h1{
+  font-size: 2rem;
+  font-family: 'Anton', sans-serif;
+  color: #212614;
+  text-align: center;
+}
+
+h1 span {
+  color: #796949;
+}
+
+h2{
+  font-size: 1.6rem;
+  font-family: 'Anton', sans-serif;
+}
+
+h2 span {
+  color: #796949;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+p {
+  margin-top: 0;
+}
+
+/*  Layout  */
+
+img {
+  display: block; 
+  max-width: 600%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.container {
+    width: 95%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.columns {
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1em 0;
+}
+
+@media (max-width: 800px) {
+  .columns {
+    flex-direction: column;
+  }
+}
+
+.col-1 {
+  width: 20%;}
+
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 70%;
+}
+
+@media (max-width: 800px) {
+ .col-1,
+  .col-2,
+  .col-3, {
+     width: 200%;
+  }
+}
+
+.col-bg {
+  background: #564a3e;
+  color: black;
+  padding: 2em;
+}
